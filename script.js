@@ -1,33 +1,44 @@
 'use srtict';
 
-if (4 == 9) {
-    console.log('OK!');
+/* const hamburger = 5;
+const fries = null;
+
+if (hamburger && fries) {
+    console.log("Im fool");
+}  */
+
+/* const hamburger = 3;
+const fries = 1;
+const cola = 1;
+
+console.log(hamburger === 3 && cola && fries);
+
+console.log(1 && 0);
+console.log(1 && 5);
+console.log(null && 5);
+console.log(0 && 'ksdgfskd');
+
+if (hamburger === 3 && cola === 1 && fries) {
+    console.log("Everybody are not hungry");
 } else {
-    console.log('Error');
-}
+    console.log('We are go home');
+} */
 
-/* const num = 50;
+const hamburger = 3;
+const fries = 3;
+const cola = 0;
+const nuggets = 2;
 
-if (num < 49) {
-    console.log('Error');
-} else if (num  > 100) {
-    console.log("Too Musch");
+if (hamburger  ===3 && cola ===2 || fries ===3 && nuggets) {
+    console.log("Everybody are not hungry");
 } else {
-    console.log("OK!");
+    console.log('We are go home');
 }
 
-(num == 50) ? console.log("OK!") : console.log('Error'); */
+console.log(hamburger  ===3 && cola ===2 || fries ===3 && nuggets);
 
-const num = 49;
+let johnReport, alexReport, samReport, mariaReport = 'done';
 
-switch (num) {
-    case 49: 
-    console.log("Wrong");
-    break;
-    case 100:
-        console.log('Wrong');
-        break;
-        case 50:
-            console.log('Thats right');
-            break;
-}
+console.log(johnReport || alexReport || mariaReport || samReport);
+
+console.log(!0);
